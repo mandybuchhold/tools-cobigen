@@ -10,4 +10,8 @@ public class MavenMetadata {
 
     /** Maven version */
     public static final String VERSION = "${project.version}";
+    
+    /** CobiGen group ID */
+    public static final String GROUP_ID = "${project.groupId}";
+    
 }
